@@ -15,10 +15,6 @@ let favColor = prompt("Inserisci qui il tuo colore preferito");
 // console.log("Il colore preferito dell'utente è: " , (favColor));
 
 
-// ricaviamo la password 
-let pasword = `${firstName}${lastName}${favColor}21`;
-// console.log ("la password generata è: " , (pasword));
-
 
 // facciamo vedere la password all'utente
-document.getElementById("mio-id").innerHTML = `La password assegnata è: ${pasword}`;
+document.getElementById("mio-id").innerHTML = `La password assegnata è: ${firstName}${lastName}${favColor}21`;
