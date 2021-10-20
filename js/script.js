@@ -15,6 +15,15 @@ let favColor = prompt("Inserisci qui il tuo colore preferito");
 // console.log("Il colore preferito dell'utente è: " , favColor);
 
 
+// variabile per numero aggiuntivo alla password 
+const pswNumber = 21; 
+// console.log("Il numero aggiuntivo alla password è: " , pswNumber);
+
+
+// generiamo la pasword 
+let password = `${firstName}${lastName}${favColor}${pswNumber}`;
+// console.log("La password generata è: " , password);
+
 
 // facciamo vedere la password all'utente
-document.getElementById("mio-id").innerHTML = `La password assegnata è: ${firstName}${lastName}${favColor}21`;
+document.getElementById("mio-id").innerHTML = `La password assegnata è: ${password}`;
